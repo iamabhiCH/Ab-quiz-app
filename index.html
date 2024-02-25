@@ -3,12 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AB Quiz</title>
+    <title>AB Quiz app</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
+    <div class="quiz-container">
 
-    <script src="script.js"></script>
+        <h2 id="quiz-question">
+            Question tag
+        </h2>
+
+        <ul>
+
+            <li>
+                <input type="radio" class="answer" id="option-a" name="quiz-options">
+                <label for="option-a" id="text_option_a"> Option A</label>
+            </li>
+            <li>
+                <input type="radio" class="answer" id="option-b" name="quiz-options">
+                <label for="option-b" id="text_option_b"> Option B</label>
+            </li>
+            <li>
+                <input type="radio" class="answer" id="option-c" name="quiz-options">
+                <label for="option-c" id="text_option_c"> Option C</label>
+            </li>
+            <li>
+                <input type="radio" class="answer" id="option-d" name="quiz-options">
+                <label for="option-d" id="text_option_d"> Option D</label>
+            </li>
+        </ul>
+
+        <button id="submit">Submit</button>
+    </div>
+
+    <script
+        src="script.js"
+    >
+    </script>
 </body>
 </html>
